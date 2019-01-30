@@ -1,6 +1,6 @@
 ﻿namespace VehicleRegistration
 {
-    partial class Form1
+    partial class FrmVehicleRegistration
     {
         /// <summary>
         /// Required designer variable.
@@ -37,11 +37,14 @@
             this.TxtBoxMake = new System.Windows.Forms.TextBox();
             this.TxtBoxModel = new System.Windows.Forms.TextBox();
             this.TxtBoxYear = new System.Windows.Forms.TextBox();
+            this.BtnUpdate = new System.Windows.Forms.Button();
+            this.BtnDelete = new System.Windows.Forms.Button();
+            this.BtnView = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnRegister
             // 
-            this.BtnRegister.Location = new System.Drawing.Point(44, 171);
+            this.BtnRegister.Location = new System.Drawing.Point(44, 166);
             this.BtnRegister.Name = "BtnRegister";
             this.BtnRegister.Size = new System.Drawing.Size(137, 48);
             this.BtnRegister.TabIndex = 0;
@@ -117,11 +120,41 @@
             this.TxtBoxYear.Size = new System.Drawing.Size(100, 20);
             this.TxtBoxYear.TabIndex = 8;
             // 
-            // Form1
+            // BtnUpdate
+            // 
+            this.BtnUpdate.Location = new System.Drawing.Point(44, 220);
+            this.BtnUpdate.Name = "BtnUpdate";
+            this.BtnUpdate.Size = new System.Drawing.Size(137, 51);
+            this.BtnUpdate.TabIndex = 9;
+            this.BtnUpdate.Text = "Update";
+            this.BtnUpdate.UseVisualStyleBackColor = true;
+            // 
+            // BtnDelete
+            // 
+            this.BtnDelete.Location = new System.Drawing.Point(44, 277);
+            this.BtnDelete.Name = "BtnDelete";
+            this.BtnDelete.Size = new System.Drawing.Size(137, 46);
+            this.BtnDelete.TabIndex = 10;
+            this.BtnDelete.Text = "Delete";
+            this.BtnDelete.UseVisualStyleBackColor = true;
+            // 
+            // BtnView
+            // 
+            this.BtnView.Location = new System.Drawing.Point(44, 329);
+            this.BtnView.Name = "BtnView";
+            this.BtnView.Size = new System.Drawing.Size(137, 45);
+            this.BtnView.TabIndex = 11;
+            this.BtnView.Text = "View";
+            this.BtnView.UseVisualStyleBackColor = true;
+            // 
+            // FrmVehicleRegistration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(255, 262);
+            this.ClientSize = new System.Drawing.Size(253, 387);
+            this.Controls.Add(this.BtnView);
+            this.Controls.Add(this.BtnDelete);
+            this.Controls.Add(this.BtnUpdate);
             this.Controls.Add(this.TxtBoxYear);
             this.Controls.Add(this.TxtBoxModel);
             this.Controls.Add(this.TxtBoxMake);
@@ -131,8 +164,8 @@
             this.Controls.Add(this.LblMake);
             this.Controls.Add(this.LblVIN);
             this.Controls.Add(this.BtnRegister);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "FrmVehicleRegistration";
+            this.Text = "Vehicle Registration";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -149,6 +182,9 @@
         private System.Windows.Forms.TextBox TxtBoxMake;
         private System.Windows.Forms.TextBox TxtBoxModel;
         private System.Windows.Forms.TextBox TxtBoxYear;
+        private System.Windows.Forms.Button BtnUpdate;
+        private System.Windows.Forms.Button BtnDelete;
+        private System.Windows.Forms.Button BtnView;
     }
 }
 
