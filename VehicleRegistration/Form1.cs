@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace VehicleRegistration
 {
-    public partial class Form1 : Form
+    public partial class FrmVehicleRegistration : Form
     {
-        public Form1()
+        public FrmVehicleRegistration()
         {
             InitializeComponent();
         }
