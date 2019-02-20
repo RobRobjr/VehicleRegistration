@@ -2,8 +2,8 @@
 (
 	VIN varchar(17) Primary Key
 	,Year int Not Null
-	,Make varchar(15)Not null
-	,Model varchar(15)
+	,Make varchar(20)Not null
+	,Model varchar(30)
 )
 Insert Into Vehicles
 Values
