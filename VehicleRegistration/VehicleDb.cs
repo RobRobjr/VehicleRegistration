@@ -19,7 +19,18 @@ namespace VehicleRegistration
                 con.Open();
             }
             throw new NotImplementedException();
-        } 
+        }
+
+        //deleting an instance in the database
+       // public static void DeleteVehicle(Vehicle v)
+       // {
+        //    Vehicle car = new Vehicle();
+
+        //    context.Entry(car).State = EntityState.Deleted;
+
+        //    context.SaveChanges();
+        //}
 
     }
 }
+

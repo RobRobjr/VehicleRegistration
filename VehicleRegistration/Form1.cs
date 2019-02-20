@@ -21,5 +21,10 @@ namespace VehicleRegistration
         {
 
         }
+
+        private void BtnDelete_Click(object sender, EventArgs e)
+        {
+           // VehicleRegistration.Vehicle
+        }
     }
 }
