@@ -95,6 +95,7 @@
             // TxtBoxVIN
             // 
             this.TxtBoxVIN.Location = new System.Drawing.Point(123, 43);
+            this.TxtBoxVIN.MaxLength = 17;
             this.TxtBoxVIN.Name = "TxtBoxVIN";
             this.TxtBoxVIN.Size = new System.Drawing.Size(100, 20);
             this.TxtBoxVIN.TabIndex = 5;
@@ -102,6 +103,7 @@
             // TxtBoxMake
             // 
             this.TxtBoxMake.Location = new System.Drawing.Point(123, 69);
+            this.TxtBoxMake.MaxLength = 20;
             this.TxtBoxMake.Name = "TxtBoxMake";
             this.TxtBoxMake.Size = new System.Drawing.Size(100, 20);
             this.TxtBoxMake.TabIndex = 6;
@@ -109,6 +111,7 @@
             // TxtBoxModel
             // 
             this.TxtBoxModel.Location = new System.Drawing.Point(123, 97);
+            this.TxtBoxModel.MaxLength = 20;
             this.TxtBoxModel.Name = "TxtBoxModel";
             this.TxtBoxModel.Size = new System.Drawing.Size(100, 20);
             this.TxtBoxModel.TabIndex = 7;
@@ -116,6 +119,7 @@
             // TxtBoxYear
             // 
             this.TxtBoxYear.Location = new System.Drawing.Point(123, 123);
+            this.TxtBoxYear.MaxLength = 4;
             this.TxtBoxYear.Name = "TxtBoxYear";
             this.TxtBoxYear.Size = new System.Drawing.Size(100, 20);
             this.TxtBoxYear.TabIndex = 8;
