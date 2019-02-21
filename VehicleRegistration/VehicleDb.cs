@@ -19,6 +19,8 @@ namespace VehicleRegistration
             {   //Finish Database code...
 
                 con.Open();
+
+                
             }
             throw new NotImplementedException();
         } 
