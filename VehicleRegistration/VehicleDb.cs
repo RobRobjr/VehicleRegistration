@@ -22,8 +22,8 @@ namespace VehicleRegistration
         }
 
         //deleting an instance in the database
-       // public static void DeleteVehicle(Vehicle v)
-       // {
+        //public static void DeleteVehicle(Vehicle v)
+        //{
         //    Vehicle car = new Vehicle();
 
         //    context.Entry(car).State = EntityState.Deleted;

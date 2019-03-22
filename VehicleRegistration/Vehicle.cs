@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VehicleRegistration
 {
-    public class Vehicle
+    public class Vehicles
     {
         public string Vin { get; set; }
 

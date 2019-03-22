@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace VehicleRegistration.Data
+namespace VehicleRegistration
 {
-     public class VehicleRegContext 
+    class VehicleRegContext
     {
-
     }
 }
