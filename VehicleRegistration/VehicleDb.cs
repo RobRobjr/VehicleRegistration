@@ -31,6 +31,14 @@ namespace VehicleRegistration
         //    context.SaveChanges();
         //}
 
+        //public static Vehicle AddVehicle(Vehicle v)
+        //{
+        //    VechicleRegContext context = new VehicleRegContext();
+        //    context.Vehicle.Add(v);
+        //    context.SaveChanges();
+        //    return v;
+        //}
+
     }
 }
 
